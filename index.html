@@ -1,39 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Blog</title>
-    <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>THE CODE TEMPTRESS</title>
+  <!-- Link to fun font -->
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet" />
+  <!-- Link to external CSS -->
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <nav>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-    </nav>
-    
-    <h1>THE CODE TEMPTRESS....</h1>
-    <p>WHERE TECH MEETS TEMPTATION</p>
-    
-    <div id="posts">
-        <h2>My First Post</h2>
-        <p>This is the content of my first post. Isn’t it great?</p>
-    </div>
-    
-    
-    <h1>WHO AM I ?</h1>
-    <button id="myButton">Click!</button>
+  <!-- Navigation menu -->
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+  </nav>
 
-    
-    <script>
-      const button = document.getElementById('myButton');
+  <!-- Main title -->
+  <h1>The Code Temptress</h1>
 
-      button.addEventListener('click', function() {
-        alert('Good job! You clicked the button!');
-      });
-    </script>
+  <!-- Profile picture and info -->
+  <div id="profile">
+    <img src="Mypicture.jpg" alt="A picture of me" />
+    <p>Technical Mentor</p>
+  </div>
+
+
+  <!-- Stories section -->
+  <div id="about">
+    <h2>"THE CODE TEMPTRESS"</h2>
+    <p> Someone who is passionate and skilled at coding.
+        It aims to inspire people to explore programming in a fun and engaging way.
+        The name is special because it combines charm with tech, making learning to code feel exciting.
+        It was created to motivate more people, to discover the power and creativity of coding.</p>
+  </div>
+
+  <!-- Button you can click -->
+  <button id="codeButton">Click Me for a Surprise!</button>
+
+  <!-- JavaScript code -->
+  <script src="script.js"></script>
 </body>
 </html>

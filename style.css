@@ -1,70 +1,77 @@
+/* Basic styles to make it look nice */
+
 body {
-    font-family: Arial, sans-serif;
-    background-color: white;
-    color: pink;
-    padding: 20px;
+  font-family: 'Brush Script MT';
+  background-color: pink;
+  margin: 0;
+  padding: 20px;
 }
 
+/* Big title with fun font */
 h1 {
-    font-family: 'Roboto', sans-serif;
-    font-size: 36px;
-    text-align: center;
-    margin-bottom: 10px;
-    color: #471ce0;
-  }
-  
-  p {
-    font-family: 'Arial', sans-serif;
-    font-size: 18px;
-    text-align: center;
-    margin-bottom: 30px;
-    color: #333;
-  }
-#posts {
-    background: white;
-    padding: 20px;
-    border-radius: 5px;
-    margin-top: 20px;
+  font-family: 'Pacifico', cursive;
+  color: #ff69b4; /* pink color */
+  text-align: center;
 }
+
+/* Navigation menu styles */
 nav {
-    background-color: #471ce0; /* your theme color */
-    padding: 10px 20px;
-    border-radius: 5px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-  }
-  
-  nav ul {
-    list-style: none;
-    display: flex;
-    gap: 20px;
-    margin: 0;
-    padding: 0;
-  }
-  
-  nav a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-    font-family: 'Arial', sans-serif;
-    font-size: 16px;
-    transition: color 0.3s;
-  }
-  
-  nav a:hover {
-    color: #ffd700; /* gold color for hover effect */
-  }
-  button {
-    background-color: #471ce0;
-    color: white;
-    border: none;
-    padding: 10px 15px;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px;
-    transition: background-color 0.3s;
-    margin-top: 10px;
-  }
-  
-  button:hover {
-    background-color: #5a3edb;
-  }
+  background-color: #ff69b4;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: left;
+  margin-bottom: 20px;
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: blueviolet;
+}
+
+/* Profile section styles */
+#profile {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#profile img {
+  width: 200px;
+  border-radius: 100%;
+  border: 4px solid white;
+}
+
+/* Stories section styles */
+#stories {
+  background-color: blue;
+  padding: 15px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+#stories h2 {
+  color: #ff69b4;
+}
+
+/* Button styles */
+#codeButton {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: #ff69b4;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#codeButton:hover {
+  background-color: #ff1493;
+}
